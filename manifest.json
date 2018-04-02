@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "no-caps-ff",
-  "version": "1.0",
+  "version": "1.1",
 
   "description":
     "transform all text to lowercase. warning: this could break some sites",
