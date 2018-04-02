@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "no-caps-ff",
+  "version": "1.0",
+
+  "description":
+    "transform all text to lowercase. warning: this could break some sites",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "css": ["main.css"]
+    }
+  ]
+}
