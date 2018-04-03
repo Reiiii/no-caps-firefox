@@ -1,7 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "no-caps-ff",
-  "version": "1.1",
+  "name": "no-caps",
+  "version": "1.2",
+
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"
+  },
 
   "description":
     "transform all text to lowercase. warning: this could break some sites",
@@ -9,8 +14,14 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "all_frames": true,
-      "css": ["main.css"]
+      "js": ["main.js"],
+      "run_at": "document_start"
     }
-  ]
+  ],
+
+  "options_ui": {
+    "page": "settings.html"
+  },
+
+  "permissions": ["storage"]
 }

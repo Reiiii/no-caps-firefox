@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 74.428574 74.428566"
+   height="74.428566mm"
+   width="74.428574mm"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="2.3729021"
+     inkscape:cx="49.049029"
+     inkscape:cy="130.32005"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="flowRoot817" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-77.840988,-46.452965)"
+     id="layer1">
+    <path
+       id="rect815"
+       d="M 87.840988,56.452965 H 142.26956 V 110.88153 H 87.840988 Z"
+       style="opacity:1;fill:#cf00cf;fill-opacity:1;fill-rule:evenodd;stroke:#cf00cf;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <g
+       aria-label="n-c"
+       transform="matrix(0.99363989,0,0,0.99363989,-225.34417,-165.85699)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fffff8;fill-opacity:1;stroke:none"
+       id="flowRoot817">
+      <path
+         d="m 331.14109,261.5214 h -2.72 v -11.64 q 0,-3.72 -1.12,-5.4 -1.08,-1.68 -3.36,-1.68 -1.2,0 -2.4,0.44 -1.2,0.44 -2.24,1.24 -1,0.8 -1.8,1.92 -0.8,1.08 -1.16,2.36 v 12.76 h -2.72 v -20.84 h 2.48 v 4.72 q 1.28,-2.28 3.64,-3.68 2.4,-1.4 5.2,-1.4 1.72,0 2.92,0.64 1.2,0.64 1.92,1.8 0.72,1.16 1.04,2.84 0.32,1.68 0.32,3.72 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway;fill:#fffff8;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:2.6627689;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path818" />
+      <path
+         d="m 336.58047,251.8814 v -2.52 h 11.68 v 2.52 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway;fill:#fffff8;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:2.6627689;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path820" />
+      <path
+         d="m 352.41547,251.0414 q 0,-2.2 0.76,-4.16 0.76,-1.96 2.12,-3.4 1.4,-1.48 3.32,-2.32 1.92,-0.84 4.24,-0.84 2.96,0 5.16,1.36 2.2,1.32 3.32,3.6 l -2.64,0.84 q -0.88,-1.6 -2.48,-2.48 -1.56,-0.92 -3.48,-0.92 -1.6,0 -3,0.64 -1.36,0.64 -2.4,1.76 -1,1.08 -1.6,2.6 -0.56,1.52 -0.56,3.32 0,1.76 0.6,3.32 0.6,1.56 1.64,2.72 1.04,1.12 2.4,1.8 1.4,0.64 2.96,0.64 1,0 1.96,-0.28 1,-0.28 1.84,-0.76 0.84,-0.52 1.44,-1.16 0.6,-0.64 0.84,-1.36 l 2.68,0.8 q -0.44,1.12 -1.28,2.08 -0.84,0.92 -2,1.64 -1.12,0.68 -2.52,1.04 -1.36,0.4 -2.84,0.4 -2.28,0 -4.2,-0.84 -1.92,-0.88 -3.32,-2.36 -1.4,-1.52 -2.2,-3.48 -0.76,-1.96 -0.76,-4.2 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway;fill:#fffff8;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:2.6627689;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path822" />
+    </g>
+  </g>
+</svg>
