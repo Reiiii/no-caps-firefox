@@ -1,0 +1,5 @@
+.no-caps-addon-activated,
+.no-caps-addon-activated * {
+  text-transform: lowercase !important;
+  font-variant: inherit !important;
+}

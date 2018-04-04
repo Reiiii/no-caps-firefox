@@ -1,3 +1,5 @@
+const classname = "no-caps-addon-activated";
+
 function onError(error) {
   console.log(`Error: ${error}`);
 }
@@ -16,14 +18,7 @@ function initialize(item) {
     }
   }
 
-  // Create a new style element
-  let css = document.createElement("style");
-  css.type = "text/css";
-  // Add our CSS
-  css.innerHTML = `* {
-    text-transform: lowercase !important;
-  }`;
-  document.head.appendChild(css);
+  document.documentElement.classList.add(classname);
 
   // Set the title to lowercase
   document.title = document.title.toLowerCase();

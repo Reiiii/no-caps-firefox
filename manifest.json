@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "no-caps",
-  "version": "1.2",
+  "version": "1.2.1",
 
   "icons": {
     "48": "icons/logo-48.png",
@@ -15,6 +15,7 @@
     {
       "matches": ["<all_urls>"],
       "js": ["main.js"],
+      "css": ["main.css"],
       "run_at": "document_start"
     }
   ],
