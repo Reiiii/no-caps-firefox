@@ -6,17 +6,23 @@
   <title>No-Caps settings</title>
 </head>
 <body>
-  <form>
-    <label>Ignored domains <em>(Seperated by newline)</em>
+  <form id="settingsform">
+    <h2>List Mode</h2>
+    <div>
+      <input type="radio" name="listType" id="blocklist" value="0" checked>
+      <label for="blocklist">Blocklist (Everything but the list)</label>
       <br/>
-      <br/>
-      Examples: <br/>
-      *google.* <br/>
-      github.com <br/>
-      nasa.tumblr.com
-      <br/>
-      <textarea type="text" id="urlList" rows="10" cols="50"></textarea>
-    </label>
+      <input type="radio" name="listType" id="allowlist" value="1">
+      <label for="allowlist">Allowlist (Nothing but the list)</label>
+    </div>
+
+    <h2>Domain list <em>(Seperated by newline)</em></h2>
+    Examples: <br/>
+    *google.* <br/>
+    github.com <br/>
+    nasa.tumblr.com
+    <br/>
+    <textarea type="text" id="urlList" rows="10" cols="50" name="urlList"></textarea>
     <br/>
     <button type="submit">Save</button>
   </form>

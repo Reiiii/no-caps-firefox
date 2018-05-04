@@ -1,27 +1,31 @@
 const classname = "no-caps-addon-activated";
 
-function onError(error) {
-  console.log(`Error: ${error}`);
-}
-
-function initialize(item) {
-  // If item is empty there is no url blocked
-  if (item.urls && item.urls.length) {
-    for (let url of item.urls) {
+const initialize = ([{ urls }, { listType }]) => {
+  let inList = 0;
+  // If urls is empty there is no url blocked
+  if (urls && urls.length) {
+    for (let url of urls) {
       let expression = new RegExp(url.replace("*", "[^ ]*"));
       const result = location.host.match(expression);
 
-      // Exit the function if the current host matches one of the patterns
+      // Break the loop if the current host matches one of the patterns
       if (result && result.length) {
-        return;
+        inList = 1;
+        break;
       }
     }
   }
 
-  document.documentElement.classList.add(classname);
+  // if blocklist && not in list
+  // if allowlist && in list
+  if (inList === listType) {
+    document.documentElement.classList.add(classname);
 
-  // Set the title to lowercase
-  document.title = document.title.toLowerCase();
-}
+    // Set the title to lowercase
+    document.title = document.title.toLowerCase();
+  }
+};
+let urls = browser.storage.local.get("urls");
+let listType = browser.storage.local.get("listType");
 
-browser.storage.local.get("urls").then(initialize, onError);
+Promise.all([urls, listType]).then(initialize);
