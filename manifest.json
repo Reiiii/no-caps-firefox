@@ -1,15 +1,14 @@
 {
   "manifest_version": 2,
   "name": "no-caps",
-  "version": "1.3.0",
+  "version": "1.4.0",
 
   "icons": {
     "48": "icons/logo-48.png",
     "96": "icons/logo-96.png"
   },
 
-  "description":
-    "transform all text to lowercase. warning: this could break some sites",
+  "description": "transform all text to lowercase. warning: this could break some sites",
 
   "content_scripts": [
     {
